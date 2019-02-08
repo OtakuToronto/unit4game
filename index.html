@@ -1,0 +1,33 @@
+<!--jQuery game-->
+<!DOCTYPE html>
+<html lang =en>
+    <head>
+        <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Defeat the Dragon</title>
+<link rel="reset" href="./assets/css/reset.css">
+<link rel="stylesheet" href="./assets/css/stylesheet.css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<h1 id="masthead">Click on the door to the dragon's lair and see if you can defeat the dragon! You can roll each dice once to damage the dragon. If his health is below 0 you win!</h1>
+
+<div id="gameboard">
+<button id="dragon">
+    <img id="door" src="assets/images/Door.png">
+    </button>
+    </head>
+    <body>        
+  <div id="health">Dragon's health:<span id="dragonhealth"></span></div>
+
+<div id="playarea">
+  <button id="red" class="dice"><img src="assets/images/red.jpg" height="70" width="70"></button>
+  <button id="orange" class="dice"><img src="assets/images/orange.jpg" height="70" width="70"></button>
+  <button id="yellow" class="dice"><img src="assets/images/yellow.jpg" height="70" width="70"></button>
+  <button id="green" class="dice"><img src="assets/images/green.jpg" height="70" width="70"></button>
+  <button id="blue" class="dice"><img src="assets/images/blue.jpg" height="70" width="70"></button>
+  <button id="purple" class="dice"><img src="assets/images/purple.jpg" height="70" width="70"></button>
+</div>
+</div>
+  <script src="./assets/javascript/game.js"></script>
+    </body>
+    </html>

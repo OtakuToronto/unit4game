@@ -1,0 +1,141 @@
+/* jQuery game */
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  align-content: center;
+  background-image: url("../images/stone.png");
+}
+
+.dice {
+  height: 60px;
+  width: 60px;
+  padding: 0;
+  margin: 0;
+}
+
+#masthead {
+  text-align: center;
+  font-size: x-large;
+  background-image: url("../images/paper.png");
+  width: 960px;
+}
+
+#gameboard {
+  background-image: url("../images/background1.jpg");
+  width: 960px;
+  height:960px;
+}
+
+#door {
+  height: 355px;
+  width: 605px;
+  padding: 0;
+  margin: 0;
+}
+
+#dragon {
+  height: 355px;
+  width: 605px;
+  padding: 0;
+  margin: 0;
+  background-image: url("../images/fire.jpg");
+  background-image: no-repeat;
+}
+
+#playarea {
+  float: left;
+  display: inline;
+}
+
+#health {
+  text-align: left;
+  font-size: x-large;
+  background-color: black;
+  color: burlywood;
+  width: 605px;
+  padding: 0;
+  margin: 0;
+}
+
+#dragonhealth {
+  text-align: left;
+  font-size: x-large;
+  background-color: black;
+  color: burlywood;
+  padding: 0;
+  margin: 0;
+}
+
+#red, #orange, #yellow, #green, #blue, #purple {
+  float:left;
+  height: 70px;
+  width: 70px;
+  padding: 0;
+  margin-left: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 1.5em;
+  cursor: pointer;
+  box-shadow: 6px 6px #5f5f5f;
+}
+
+#red:hover {
+  box-shadow: 4px 4px black;
+  top: 2px;
+}
+
+#red:active {
+  box-shadow: 0 0 #5f5f5f;
+  top: 2px;
+}
+
+#orange:hover {
+  box-shadow: 4px 4px black;
+  top: 2px;
+}
+
+#orange:active {
+  box-shadow: 0 0 #5f5f5f;
+  top: 2px;
+}
+
+#yellow:hover {
+  box-shadow: 4px 4px black;
+  top: 2px;
+}
+
+#yellow:active {
+  box-shadow: 0 0 #5f5f5f;
+  top: 2px;
+}
+
+#green:hover {
+  box-shadow: 4px 4px black;
+  top: 2px;
+}
+
+#green:active {
+  box-shadow: 0 0 #5f5f5f;
+  top: 2px;
+}
+
+#blue:hover {
+  box-shadow: 4px 4px black;
+  top: 2px;
+}
+
+#blue:active {
+  box-shadow: 0 0 #5f5f5f;
+  top: 2px;
+}
+
+#purple:hover {
+  box-shadow: 4px 4px black;
+  top: 2px;
+}
+
+#purple:active {
+  box-shadow: 0 0 #5f5f5f;
+  top: 2px;
+}
+
